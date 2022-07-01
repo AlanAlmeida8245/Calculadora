@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Calculadora</title>
+</head>
+<body>
+
+    
+    <div class="calculadora">
+
+        <table>
+            <tr>
+                <td colspan="4" class="resultado" id="resultado"></td>
+            </tr>
+            <tr>
+                <td onclick="inserirNum(7)" class="botao-numero">7</td>
+                <td onclick="inserirNum('8')" class="botao-numero">8</td>
+                <td onclick="inserirNum('9')" class="botao-numero">9</td>
+                <td class="X" onclick="inserirNum('*')">X</td>
+            </tr>
+            <tr>
+                <td onclick="inserirNum('4')" class="botao-numero">4</td>
+                <td onclick="inserirNum('5')" class="botao-numero">5</td>
+                <td onclick="inserirNum('6')" class="botao-numero">6</td>
+                <td class="menos" onclick="inserirNum('-')">-</td>
+            </tr>
+            <tr>
+                <td  onclick="inserirNum('1')" class="botao-numero">1</td>
+                <td  onclick="inserirNum('2')" class="botao-numero">2</td>
+                <td  onclick="inserirNum('3')" class="botao-numero">3</td>
+                <td class="mais" onclick="inserirNum('+')">+</td>
+            </tr>
+            <tr>
+                <td onclick="inserirNum(`.`)" class="botao-numero">.</td>
+                <td  onclick="inserirNum('0')" class="botao-numero">0</td>
+                <td onclick="inserirNum(`/`)" class="botao-numero">/</td>
+                <td rowspan="2" class="igual" onclick="calcular()">=</td>
+            </tr>
+            <tr>
+                <td class="botao-numero" onclick="apagar()" colspan="2"><</td>
+                
+                <td class="deletar" onclick="limpar()">DEL</td>
+            </tr>
+        </table>
+
+            
+    </div>
+
+
+</body>
+</html>

@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: darkslateblue;
+}
+table{
+            border-collapse: collapse;
+            height: 400px;
+            width: 300px;
+            position: relative;
+            font-weight: bolder;
+            box-shadow: 1px 3px 5px
+            black;
+}
+td,th{
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px;
+    text-align: center;
+    
+    
+}
+
+tr{
+    background-color: white;
+}
+
+.calculadora{
+    max-width: 100vh;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+
+}
+.X{
+    background-color: salmon;
+    font-weight: bolder;
+}
+.X:hover{
+    background: rgb(199, 92, 80);
+}
+.igual{
+    background-color: lightgreen;
+    font-size: 20px;
+    padding: 1px;
+    font-weight: bolder;
+}
+.igual:hover{
+    background-color: rgb(110, 207, 110);
+}
+.mais
+{
+    background-color: rgb(158, 85, 158);
+    font-size: 20px;
+    padding: 1px;
+    font-weight: bolder;
+}
+.mais:hover
+{
+    background-color: rgb(153, 71, 153);;
+}
+.menos{
+    font-weight: bolder;
+    padding: 1px;
+    font-size: 20px;
+    background-color: lightblue;
+}
+.menos:hover{
+    background-color: rgb(115, 179, 201);
+}
+.deletar{
+    padding: 1px;
+    background-color: lightpink;
+}
+.deletar:hover{
+    background: rgb(216, 130, 143);
+}
+.resultado{
+    height:100px;
+    text-align: right;
+    justify-content: end;
+    font-size: 30px;
+    
+    
+}
+.botao-numero:hover{
+background-color: lightgrey;
+}
